@@ -1,16 +1,10 @@
 import styled from 'styled-components';
 
-export const Input = styled.input`
-    height: 75px;
-    width: 249px;
-    background-color: #000000;
-    border: 0;
-    color: #ffffff;
-    text-align: right;
-    font-size: 42px;
-    font-weight: 500;
+export const Keypad = styled.div`
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(60px, auto);
 `
-
 export const Button = styled.button`
     color: #000000;
     margin: 3px;
@@ -63,23 +57,4 @@ export const ButtonClear = styled.button`
     border-style: none; 
     margin: 3px;
     font-size: 21px;
-`
-
-export const Container = styled.div`
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    margin: 0 auto;
-    width: 256px;
-    text-align: center;
-    border: 10px solid #000000;
-    background-color: #000000;
-    border-radius: 10px;
-`
-
-export const Kaypad = styled.div`
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: minmax(60px, auto);
 `

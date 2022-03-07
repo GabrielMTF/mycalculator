@@ -1,9 +1,10 @@
 import React from 'react';
-import Calc from './components/calculadora/index'
+import Calculadora from './pages/Calculadora';
 
 const App = () => {
-  return(
-      <Calc/>
+
+  return (
+    <Calculadora />
   )
 }
 
